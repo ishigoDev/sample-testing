@@ -12,7 +12,7 @@ app.get("/", (req, res) => {
   res.send("AI Agent is running 🚀");
 });
 
-app.get("/", (req, res) => {
+app.get("/checking-update", (req, res) => {
   res.send("AI Agent is running 🚀");
 });
 
