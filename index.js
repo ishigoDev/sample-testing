@@ -12,4 +12,8 @@ app.get("/", (req, res) => {
   res.send("AI Agent is running 🚀");
 });
 
+app.get("/checking-update", (req, res) => {
+  res.send("Checking update");
+});
+
 app.listen(PORT, () => console.log(`Server running on ${PORT}`));
