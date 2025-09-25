@@ -16,4 +16,9 @@ app.get("/checking-update", (req, res) => {
   res.send("Checking update");
 });
 
+app.get("/run-agent", (req, res) => {
+  res.send("Agent started");
+  
+});
+
 app.listen(PORT, () => console.log(`Server running on ${PORT}`));
